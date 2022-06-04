@@ -1,0 +1,118 @@
+#title_all {
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    background-color: rgba(215, 215, 215, 0.80);
+    padding: 12px;
+    width: 1420px;
+    height: 50px;
+    text-align: left;
+    position: absolute;left:40px ;top: 20px;
+}
+#title_title {
+    position: absolute;left:10px ;top: -8px;
+}
+#today_title {
+    font-size: 30px;
+    position: absolute;left:1080px ;top: 28px;
+}
+.login_button {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    width: 350px;
+    height: 45px;
+    position: absolute;left:1525px ;top: 35px;
+}
+#mainformain {
+    border-top: 3px solid DimGray;
+    width: 1270px;
+    padding: 30px;
+    font-size: 20px;
+    position: absolute;left:40px ;top: 110px;
+}
+#mainforlogin {
+    border-top: 3px solid DimGray;
+    width: 1775px;
+    font-size: 40px;
+    position: absolute;left:40px ;top: 110px;
+}
+#mainforcreate {
+    border-top: 3px solid DimGray;
+    width: 1270px;
+    padding: 30px;
+    font-size: 40px;
+    position: absolute;left:40px ;top: 110px;
+}
+#celandar_main {
+    border-top: 3px solid DimGray;
+    border-left: 2px solid DimGray;
+    border-right: 2px solid DimGray;
+    border-bottom: 2px solid DimGray;
+    width: 500px;
+    height: 800px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    position: absolute;left:1370px ;top: 110px;
+}
+#create_main {
+    border-top: 2px solid DimGray;
+    border-bottom: 2px solid DimGray;
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    position: absolute;left:0px ;top: 300px;
+}
+#create_main_title{
+    position: absolute;left:10px ;top: -15px;
+}
+#create_event {
+    font-size: 20px;
+    border-radius: 14px;
+    border: 2px solid darkgray;
+    width: 140px;
+    height: 40px;
+    position: absolute;left:10px ;top: 45px;
+}
+#login_main {
+    text-align: center;
+    width: 40%;
+    position: absolute;left:30% ;top: 30px;
+}
+.input_login {
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    color: DimGray;
+}
+.LR_button {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    width: 350px;
+    height: 45px;
+    position: relative;left:0 ;top: 20px;
+}
+#title_event_input {
+    font-size: 40px;
+    color: DimGray;
+    border-radius: 2px;
+    border: 2px solid darkgray;
+    width: 800px;
+    height: 60px;
+    position: relative;left:0 ;top: 20px;
+}
+.input_event {
+    font-size: 40px;
+    width: 500px;
+    height: 60px;
+    color: DimGray;
+}
+#save {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    width: 20%;
+    height: 45px;
+    position: relative;left:40% ;top: 0px;
+
+}

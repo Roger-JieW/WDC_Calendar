@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Party Calendar</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+    </head>
+    <body>
+        <div id="App">
+            <div id="title_all">
+                <h1 id="title_title">Appointment List</h1>
+                <div id="today_title"><b>Today {{CurrentDate}}</b></div>
+            </div>
+            <button id="login" class="login_button"><b>{{login_id}}</b></button>
+
+            <div id="mainforcreate">
+                Create an Event/Party
+                <hr/>
+                <input name="title_inputer" value="Please enter event title" id="title_event_input"/><br /><br />
+                Start Date:<input name="date_inputer" value="Please enter Start Date" id="date_start_input" class="input_event"/><br /><br />
+                End Date:<input name="date_inputer" value="Please enter End Date" id="date_end_input" class="input_event"/><br /><br />
+                Start Time:<input name="time_inputer" value="Please enter Start Time" id="time_start_input" class="input_event"/><br /><br />
+                End Time:<input name="time_inputer" value="Please enter End Time" id="time_end_input" class="input_event"/><br /><br />
+                Email:<input name="email_inputer" value="Please enter Email" id="email_input" class="input_event"/><br /><br />  
+                <button id="save" class="save_button"><b>SAVE</b></button>
+            </div>
+            <div id="celandar_main">
+                <div id="celandar">Vue-calendar here</div>
+                <div id="create_main">
+                    <h3 id="create_main_title">Event/Party</h3>
+                    <button id="create_event"><b>Create</b></button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

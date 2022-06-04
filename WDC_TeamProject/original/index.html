@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Party Calendar</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+    </head>
+    <body>
+        <div id="App">
+            <div id="title_all">
+                <h1 id="title_title">Appointment List</h1>
+                <div id="today_title"><b>Today {{CurrentDate}}</b></div>
+            </div>
+            <button id="login" class="login_button"><b>{{login_id}}</b></button>
+
+            <div id="mainformain">
+                {{Activitys}}
+            </div>
+            <div id="celandar_main">
+                <div id="celandar">Vue-calendar here</div>
+                <div id="create_main">
+                    <h3 id="create_main_title">Event/Party</h3>
+                    <button id="create_event"><b>Create</b></button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
